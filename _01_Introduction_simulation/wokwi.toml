@@ -1,0 +1,6 @@
+[wokwi]
+name = "Simulation"
+desciption =  "First simulation with wokwi"
+version = 1
+firmware = 'main.hex'
+elf = 'main.elf'
