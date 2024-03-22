@@ -15,7 +15,7 @@ Abre una terminal en el directorio donde guardaste tu archivo main.c. El proceso
 
 a. Compilar el código fuente a un archivo objeto:
 ```
-avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega328p -c main.cpp -o main.elf
+avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega328p -c main.cpp -o main.o
 ```
 
 En este comando:
@@ -29,7 +29,8 @@ main.c es el nombre de tu archivo fuente.
 
 b. Enlazar el archivo objeto para crear un archivo ejecutable .hex:
 
-```avr-gcc -mmcu=atmega328p main.o -o main.elf
+```
+avr-gcc -mmcu=atmega328p main.o -o main.elf
 avr-objcopy -O ihex -R .eeprom main.elf main.hex
 ```
 
