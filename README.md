@@ -61,4 +61,4 @@ Una colección de programas Unix creados para la plataforma Windows. Los program
 `<instalar>\avr\lib`
 Bibliotecas avr-libc, archivos de inicio, scripts de vinculación y demás.
 
-Una vez añadido el diectorio su variable de entorno PATH, Ud podra usar el comando `avr-gcc`, de lo contrario debera usar la dirección completa, ej. `C:/WinAVR-20100110/bin/avr-gcc`
+Una vez añadido el diectorio su variable de entorno PATH, Ud podra usar el comando `avr-gcc`, de lo contrario debera usar la dirección completa, ej. `C:\WinAVR-20100110\bin\avr-gcc`
