@@ -37,3 +37,28 @@ avr-objcopy -O ihex -R .eeprom main.elf main.hex
 El primer comando enlaza el archivo objeto main.o en un archivo ejecutable ELF `main.elf`.
 El segundo comando convierte el archivo ELF main.elf en un archivo HEX `main.hex`, que es el que se cargará en el microcontrolador. La opción `-R` .eeprom evita incluir la sección EEPROM en el archivo `.hex`, ya que esta se maneja generalmente de manera separada.
 
+
+## Instalar AVR_GCC en Windows
+
+Descargar el instalador de [WinAVR](https://sourceforge.net/projects/winavr/)
+
+`<instalar>` = El directorio donde instaló WinAVR. (Usualmente en `C:/WinAVR-20100110/`)
+
+`<install>\bin`
+Los programas de desarrollo de software AVR. Este directorio debe estar en su variable de entorno PATH. Esto incluye:
+- GNU Binutils
+- CCG
+- avrdude
+- Depurador GNU (GDB)
+- Conocimiento
+- SimulAVR
+- Registro
+- Varias DLL necesarias
+
+`<instalar>\utils\bin`
+Una colección de programas Unix creados para la plataforma Windows. Los programas make y sh (bash) residen aquí. Este directorio debe estar en su variable de entorno PATH.
+
+`<instalar>\avr\lib`
+Bibliotecas avr-libc, archivos de inicio, scripts de vinculación y demás.
+
+Una vez añadido el diectorio su variable de entorno PATH, Ud podra usar el comando `avr-gcc`, de lo contrario debera usar la dirección completa, ej. `C:/WinAVR-20100110/bin/avr-gcc`
