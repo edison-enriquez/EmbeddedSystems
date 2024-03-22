@@ -15,7 +15,7 @@ Abre una terminal en el directorio donde guardaste tu archivo main.c. El proceso
 
 a. Compilar el código fuente a un archivo objeto:
 ```
-avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega328p -c main.cpp -o main.o
+avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega328p -c main.cpp -o main.elf
 ```
 
 En este comando:
