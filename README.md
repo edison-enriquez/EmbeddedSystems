@@ -42,7 +42,7 @@ El segundo comando convierte el archivo ELF main.elf en un archivo HEX `main.hex
 
 Descargar el instalador de [WinAVR](https://sourceforge.net/projects/winavr/)
 
-`<instalar>` = El directorio donde instaló WinAVR. (Usualmente en `C:/WinAVR-20100110/`)
+`<install>` = El directorio donde instaló WinAVR. (Usualmente en `C:/WinAVR-20100110/`)
 
 `<install>\bin`
 Los programas de desarrollo de software AVR. Este directorio debe estar en su variable de entorno PATH. Esto incluye:
