@@ -20,12 +20,12 @@ avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega328p -c main.cpp -o main.o
 
 En este comando:
 
--Os optimiza el código para tamaño.
--DF_CPU=16000000UL define la frecuencia del reloj del microcontrolador, necesario para las funciones de tiempo. Ajusta este valor según tu hardware.
--mmcu=atmega328p especifica el tipo de microcontrolador objetivo. Cambia atmega328p por tu modelo específico si es necesario.
--c le dice a avr-gcc que solo compile o ensamble el código, pero no lo enlace.
+- -Os optimiza el código para tamaño.
+- -DF_CPU=16000000UL define la frecuencia del reloj del microcontrolador, necesario para las funciones de tiempo. Ajusta este valor según tu hardware.
+- -mmcu=atmega328p especifica el tipo de microcontrolador objetivo. Cambia atmega328p por tu modelo específico si es necesario.
+- -c le dice a avr-gcc que solo compile o ensamble el código, pero no lo enlace.
 main.c es el nombre de tu archivo fuente.
--o main.o especifica el nombre del archivo de salida.
+- -o main.o especifica el nombre del archivo de salida.
 
 b. Enlazar el archivo objeto para crear un archivo ejecutable .hex:
 
