@@ -3,7 +3,7 @@
 
 Esta sección describe los diversos elementos del diagrama de clases.
 
-<img alt="<texto-alt>" src="./images/Basic_Class_Diagram.jpeg">
+<img alt="<texto-alt>" src="./_images/Basic_Class_Diagram.jpeg">
 <center>(Fig 1. Diagrama de Clases Basico)</center>
 
 
