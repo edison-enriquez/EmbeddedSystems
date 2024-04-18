@@ -2,24 +2,17 @@
 
 ## ¿Qué es la programación de sistemas embebidos?
 
-¿Qué tienen de especial los sistemas embebidos?
-
-
 Al pensar en sistemas embebidos se traza una distinción entre sistemas “embebidos” y otro tipo de sistemas. Antes de profundizar en la discusión, debemos comprender cuál es esta diferencia para que podamos apreciar lo que pse pretende con respecto a los __patrones__ y tecnologías que usaremos para desarrollar sistemas embebidos.
 Se define un sistema embebido como "__un sistema computarizado dedicado a realizar un conjunto específico de funciones del mundo real, en lugar de proporcionar un entorno informático generalizado__". Claramente, se trata de una categorización amplia que incluye pequeñas computadoras de 8 bits integradas en marcapasos cardíacos, computadoras interconectadas de 32 bits que controlan la aviónica, las comunicaciones, el control de incendios de aviones y redes de área amplia compuestas por cientos de potentes sistemas informáticos para la gestión del campo de batalla en Sistemas C4ISR (Comando, Control, Comunicaciones, Computadoras, Inteligencia, Vigilancia y Reconocimiento).
 
 Muchos sistemas embebidos no tienen discos, interfaz humana y apenas memoria, pero el alcance del mercado de sistemas embebidos es mucho más amplio que el de dispositivos tan simples.
 Los sistemas embebidos están en todas partes:
 
-• En el campo médico, los sistemas embebidos incluyen dispositivos implantables (p. ej., marcapasos cardíacos, desfibriladores y bombas de insulina), equipos de monitorización (p. ej., monitores de ECG/EKG, monitores de gases en sangre, monitores de presión arterial, monitores EMG), sistemas de imágenes (p. ej. , CT, SPECT, PET, TEM y generadores de imágenes de rayos X) y dispositivos de administración de terapia (p. ej., ventilador del paciente, vaporizadores de medicamentos y bombas de infusión).
-
-• En el mercado de las telecomunicaciones existen dispositivos que van desde teléfonos móviles, sistemas de conmutación, enrutadores, módems y satélites.
-
-• En entornos automotrices, los sistemas integrados optimizan la combustión del motor, administran la entrega de potencia en las transmisiones, monitorean los datos de los sensores, controlan el freno antibloqueo, brindan seguridad y ofrecen servicios de información y entretenimiento, como reproductores de CD y DVD, y enrutamiento GPS (en algunos lugares, puede ofrecer detección por radar y láser e incluso contramedidas activas por radar y láser)
-
-• En la oficina, los sistemas integrados gestionan teléfonos, impresoras, fotocopiadoras, máquinas de fax, luces, proyectores digitales, sistemas de seguridad y sistemas de detección y extinción de incendios.
-
-• En el hogar, por ejemplo, hornos, televisores, radios, lavadoras e incluso algunas aspiradoras.
+- En el campo médico, los sistemas embebidos incluyen dispositivos implantables (p. ej., marcapasos cardíacos, desfibriladores y bombas de insulina), equipos de monitorización (p. ej., monitores de ECG/EKG, monitores de gases en sangre, monitores de presión arterial, monitores EMG), sistemas de imágenes (p. ej. , CT, SPECT, PET, TEM y generadores de imágenes de rayos X) y dispositivos de administración de terapia (p. ej., ventilador del paciente, vaporizadores de medicamentos y bombas de infusión).
+- En el mercado de las telecomunicaciones existen dispositivos que van desde teléfonos móviles, sistemas de conmutación, enrutadores, módems y satélites.
+- En entornos automotrices, los sistemas integrados optimizan la combustión del motor, administran la entrega de potencia en las transmisiones, monitorean los datos de los sensores, controlan el freno antibloqueo, brindan seguridad y ofrecen servicios de información y entretenimiento, como reproductores de CD y DVD, y enrutamiento GPS (en algunos lugares, puede ofrecer detección por radar y láser e incluso contramedidas activas por radar y láser)
+- En la oficina, los sistemas integrados gestionan teléfonos, impresoras, fotocopiadoras, máquinas de fax, luces, proyectores digitales, sistemas de seguridad y sistemas de detección y extinción de incendios.
+- En el hogar, por ejemplo, hornos, televisores, radios, lavadoras e incluso algunas aspiradoras.
 
 Los sistemas integrados ya controlan, aumentan, monitorean y administran prácticamente todos los dispositivos de alta tecnología que tenemos, desde televisores hasta trenes y automatización de fábricas, y su uso va en aumento.
 
