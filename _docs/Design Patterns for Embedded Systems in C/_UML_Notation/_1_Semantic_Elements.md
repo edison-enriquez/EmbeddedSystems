@@ -1,7 +1,9 @@
+
+## Diagrama de Clases
 Esta sección describe los diversos elementos del diagrama de clases.
 
 <img alt="<texto-alt>" src="./images/Basic_Class_Diagram.jpeg">
-<center>Fig 1. Diagrama de Clases Basico</center>
+<center>(Fig 1. Diagrama de Clases Basico)</center>
 
 
 1. Elementos nodales
