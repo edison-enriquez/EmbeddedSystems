@@ -8,7 +8,7 @@
 ╚═╝░░░░░╚═╝╚═╝░╚════╝░╚═╝░░╚═╝░╚════╝░░╚═════╝░░╚════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚═╝
 
 
-Un Tamagotchi (たまごっち?) es una mascota virtual. Nuestro Microgotchi es una mascota que vive en un microcontrolador. 
+Un Tamagotchi (たまごっち?) es una mascota virtual. Nuestro Microgotchi será una mascota que virtual integrada en un microcontrolador. 
 
 Como extensiones tiene:
 1. Una pantalla para comunicarse con nosotros
