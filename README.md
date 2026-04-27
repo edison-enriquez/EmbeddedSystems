@@ -55,10 +55,10 @@ Los programas de desarrollo de software AVR. Este directorio debe estar en su va
 - Registro
 - Varias DLL necesarias
 
-`<instalar>\utils\bin`
+`<install>\utils\bin`
 Una colección de programas Unix creados para la plataforma Windows. Los programas make y sh (bash) residen aquí. Este directorio debe estar en su variable de entorno PATH.
 
-`<instalar>\avr\lib`
+`<install>\avr\lib`
 Bibliotecas avr-libc, archivos de inicio, scripts de vinculación y demás.
 
 Una vez añadido el diectorio su variable de entorno PATH, Ud podra usar el comando `avr-gcc`, de lo contrario debera usar la dirección completa, ej. `C:\WinAVR-20100110\bin\avr-gcc`
