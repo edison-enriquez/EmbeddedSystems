@@ -58,6 +58,35 @@ Los programas de desarrollo de software AVR. Este directorio debe estar en su va
 `<install>\utils\bin`
 Una colección de programas Unix creados para la plataforma Windows. Los programas make y sh (bash) residen aquí. Este directorio debe estar en su variable de entorno PATH.
 
+
+### Configurar Variables de  entorno
+1. Acceder a las Propiedades del Sistema
+  * Existen varias formas de llegar, pero la más rápida es:
+  * Presiona la tecla Windows y escribe: Variables de entorno.
+  * Selecciona la opción Editar las variables de entorno del sistema.
+  * Se abrirá una pequeña ventana llamada "Propiedades del sistema". Haz clic en el botón Variables de entorno... situado en la parte inferior derecha.
+
+2. Diferencia entre Variables de Usuario y de Sistema
+En la ventana que aparece verás dos secciones:
+  * Variables de usuario: Solo afectan a tu sesión actual de Windows. Es lo más seguro si no quieres alterar el funcionamiento de otros usuarios.
+  * Variables de sistema: Afectan a todos los usuarios de la computadora. Requiere permisos de administrador.
+
+3. Agregar o Editar una Variable (Ejemplo: PATH)
+La variable más común que solemos modificar es el Path, que permite ejecutar programas mediante la línea de comandos.
+
+  * En la sección correspondiente, busca la variable llamada Path y selecciónala.
+  * Haz clic en Editar.
+  * Se abrirá una lista de rutas. Haz clic en Nuevo y pega la ruta de la carpeta que contiene los archivos ejecutables (por ejemplo, C:\Python312\Scripts).
+  * Haz clic en Aceptar en todas las ventanas abiertas para guardar los cambios.
+
+4. Crear una Variable Nueva
+Si necesitas definir una variable específica (como JAVA_HOME o CUDA_PATH):
+
+  * Haz clic en Nuevo (ya sea en Usuario o Sistema).
+  * Nombre de la variable: El identificador (ej. MI_VARIABLE).
+  * Valor de la variable: La ruta o dato que desees guardar.
+
+### Para microcontroladores AVR
 `<install>\avr\lib`
 Bibliotecas avr-libc, archivos de inicio, scripts de vinculación y demás.
 
